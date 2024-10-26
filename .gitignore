@@ -1,0 +1,6 @@
+node_modules
+.env
+public
+build
+build-app
+/logs
