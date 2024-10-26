@@ -15,7 +15,7 @@ import {Controller} from './controllers/controller.interface'
 import {errorMiddleware} from './middlewares/error.middleware'
 import {HttpException} from './utils/exception/http.exception'
 
-const origin = ['http://localhost:5173']
+const origin = ['http://localhost:5173', 'https://demo-order-management-app.vercel.app']
 
 export class App {
   public app: Application
